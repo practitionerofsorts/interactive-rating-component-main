@@ -1,10 +1,11 @@
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: var(--Orange);
   }
 
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--Light-Grey);
   }
   :root{
     --Orange: hsl(25, 97%, 53%);
