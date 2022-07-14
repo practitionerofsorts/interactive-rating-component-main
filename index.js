@@ -38,7 +38,7 @@ myBtn5.addEventListener("click", () => {
 submitBtn.addEventListener("click", () => {
   if (rateValue == null) {
     alert(
-      "please rate us so we can maybe eat something other than frozen pizzas, ulcer is not good at all, i will tell you that"
+      "Please rate us so we can maybe eat something other than frozen pizzas, ulcer is not good at all, i will tell you that"
     );
   } else {
     ouputValue.textContent = `${rateValue}`;
