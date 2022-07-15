@@ -1,0 +1,140 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--Orange);
+  }
+
+  .attribution a {
+    color: var(--Light-Grey);
+  }
+  :root{
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hwb(217 58% 33%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Blue: hsl(212, 13%, 23%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --font:'Overpass', sans-serif;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap: 2em;
+    background-color:var(--Very-Dark-Blue);
+    font-family:var(--font)
+  }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    max-width: 22em;
+    padding: 1.5em;
+    background-color: var(--Dark-Blue);
+    border-radius: 1em;
+}
+.star{
+  background-color: var(--Blue);
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+}
+ .container img{
+    width: 15px;
+    height: 14px;
+  }
+  .container h2{
+    color: var(--White);
+    margin-top: 1em;
+    margin-bottom: .5em;
+  }
+  .container p{
+    color: var(--Light-Grey);
+    margin-bottom: .5em;
+  }
+  .rates{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+    margin-bottom: .5em;
+  }
+  .rb{
+    color: var(--Light-Grey);
+    background-color: var(--Blue);
+    border: none;
+    border-radius: 50%;
+    padding: 1em 1.5em;
+  }
+  .submit{
+    color: var(--White);
+    padding: .5em;
+    border: none;
+    border-radius: 5em;
+    background-color: var(--Orange);
+  }
+
+
+
+  /*=========================================================*/
+.thanks{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 22em;
+    padding: 2em 1.5em;
+    background-color: var(--Dark-Blue);
+    border-radius: 1em;
+    display: none;
+}
+.orange{
+  color: var(--Orange);
+  background-color: var(--Blue);
+  padding: .4em  1em;
+  border-radius: 10em;
+  width: 13em;
+ margin: 1.5em auto ;
+}
+.thanks h2{
+  color: var(--White);
+  margin-bottom: .5em;
+}
+.gratitude{
+  color: var(--Light-Grey);
+  margin-bottom: 1em;
+}
+.thanks img{
+  width: 10em;
+}
+  /*------------HOVER---------------*/
+  .submit:hover{
+      cursor: pointer;
+      color: var(--Orange);
+      background-color: var(--White);
+      transition: .5s ease-out;
+    }
+ .rb:hover{
+      cursor: pointer;
+      color: var(--White);
+      background-color: var(--Orange);
+      transition: .3s ease-out;
+    } 
+@media (max-width: 450px){
+  .container{
+    width: 90%;
+  }
+  .thanks{
+    width: 90%;
+  }
+
+}
