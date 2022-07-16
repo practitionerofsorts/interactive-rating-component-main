@@ -136,5 +136,8 @@
   .thanks{
     width: 90%;
   }
-
+.container p{
+    color: var(--Light-Grey);
+    margin-bottom: .5em;
+  }
 }
