@@ -88,9 +88,9 @@
 
   /*=========================================================*/
 .thanks{
-    display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     max-width: 22em;
     padding: 2em 1.5em;
     background-color: var(--Dark-Blue);
@@ -132,6 +132,10 @@
 @media (max-width: 450px){
   .container{
     width: 90%;
+  }
+  .container p{
+    color: var(--Light-Grey);
+    margin-bottom: .5em;
   }
   .thanks{
     width: 90%;
