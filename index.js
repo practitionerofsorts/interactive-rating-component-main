@@ -4,6 +4,7 @@ const ouputValue = document.getElementById("selected");
 const rateBtn = document.querySelectorAll(".rateBtn");
 const rb = document.querySelectorAll(".rb");
 const submitBtn = document.getElementById("submitButton");
+
 var output;
 
 rateBtn.forEach((btn) => {
@@ -24,4 +25,8 @@ submitBtn.addEventListener("click", () => {
     mainContainer.style.display = "none";
     thanksSection.style.display = "flex";
   }
+});
+rateAgain.addEventListener("click", () => {
+  mainContainer.style.display = "flex";
+  thanksSection.style.display = "none";
 });

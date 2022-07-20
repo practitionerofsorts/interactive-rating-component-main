@@ -81,6 +81,7 @@
     padding: .5em;
     border: none;
     border-radius: 5em;
+    width: 100%;
     background-color: var(--Orange);
   }
 
@@ -129,6 +130,11 @@
       background-color: var(--Orange);
       transition: .3s ease-out;
     } 
+    .rb:focus{
+      background-color: var(--Medium-Grey) ;
+      color: white;
+    }
+    
 @media (max-width: 450px){
   .container{
     width: 90%;
