@@ -9,8 +9,6 @@ var output;
 
 rateBtn.forEach((btn) => {
   btn.addEventListener("click", (b) => {
-    btn.style.backgroundColor = "#959eac";
-    btn.style.color = "white";
     output = b.currentTarget.id;
   });
 });
