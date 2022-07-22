@@ -22,7 +22,7 @@ submitBtn.addEventListener("click", () => {
     ouputValue.textContent = `${output}`;
     mainContainer.style.display = "none";
     thanksSection.style.display = "flex";
-  }
+  } //just checking something
 });
 rateAgain.addEventListener("click", () => {
   mainContainer.style.display = "flex";
